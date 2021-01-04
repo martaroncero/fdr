@@ -1,0 +1,44 @@
+.dropdown-menu {
+  box-shadow: none;
+
+}
+.dropdown-menu a {
+  color: rgb(20, 20, 20);
+  border: 2px solid rgb(20, 20, 20);
+  margin-top:4px;
+  padding: 10px 15px;
+  border-radius: 100px;
+  font-weight: 600;
+    background-color: white;
+
+}
+
+ul.dropdown-menu {
+  background: none;
+  border: none;
+}
+
+
+#navbar-menu{
+ color: rgb(20, 20, 20);
+  border: 2px solid rgb(20, 20, 20);
+  margin-top:4px;
+  padding: 10px 15px;
+  border-radius: 100px;
+  font-weight: 600;
+  background-color: white;
+  text-decoration: none;
+
+}
+
+#navbar-menu:hover{
+ color: #E683FF;
+
+}
+
+
+
+
+
+
+

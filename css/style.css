@@ -1,0 +1,141 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Components design --- */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/dropdown.css");
+@import url("components/card.css");
+@import url("components/badge.css");
+@import url("components/banner.css");
+@import url("components/tabs.css");
+@import url("components/list.css");
+
+
+
+/* Font
+
+font-family: 'Fira Code', monospace;
+*/
+
+/* --- Fonts --- */
+body {
+  font-family: 'Fira Code', monospace;
+  padding-bottom: 200px;
+  background-color: #C4C4C4;
+}
+h1, h2, h3 {
+ font-family: 'Fira Code', monospace;
+}
+
+
+
+@font-face {
+    font-family: Firacode Bold;
+    src: url(firacode-bold.woff);
+}
+/* */
+body {
+    font-family: "Work Sans";
+    font-size: 15px;
+    line-height: 1.25;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+h1{
+ font-family: Fira Code;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+h2{
+
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+p{
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(38, 38, 38, 1);
+}
+
+header, section{
+  padding: 30px;
+ 
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  
+  width: 100%;
+  padding: 20px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  z-index: 2;
+}
+
+
+
+header{
+   background-color: #FCFF61;
+  font-family: firacode-bold;
+    font-size: 18px;
+  
+  
+}
+
+
+
+section.about{
+  background-color: #61FF97;
+  position: sticky;
+  position: -webkit-sticky;
+  
+}
+
+section.about p{
+  max-width: 30em;
+   font-size: 18px;
+  line-height: 42px;
+}
+section.page{
+    background-color: #467E71;
+}
+section.collage{
+  background-color: #C4C4C4;
+  height: 800px;
+  
+}
+section.contact{
+    background-color: #262626f;
+  
+}
+
+
+
+
+
+
+
+
+.footer{
+  background-color: #262626ff;
+}
